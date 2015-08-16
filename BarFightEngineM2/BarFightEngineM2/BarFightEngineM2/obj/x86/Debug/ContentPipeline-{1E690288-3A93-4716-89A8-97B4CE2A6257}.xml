@@ -1,0 +1,2008 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Effect.fx</Source>
+      <Name>Effect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Effect.xnb</Output>
+      <Time>2015-05-15T12:14:23.5535522-07:00</Time>
+    </Item>
+    <Item>
+      <Source>mushroomm.fbx</Source>
+      <Name>mushroomm</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\mushroomm.xnb</Output>
+      <Time>2015-05-11T09:46:35.8756783-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\mushroomm_0.xml</Key>
+        <Value>2015-06-13T12:03:23.5275381-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\mushroom_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>beer1m.fbx</Source>
+      <Name>beer1m</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\beer1m.xnb</Output>
+      <Time>2015-05-27T09:39:03.9712212-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer1m_0.xml</Key>
+        <Value>2015-06-13T12:03:24.0445187-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>poolTM.fbx</Source>
+      <Name>poolTM</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\poolTM.xnb</Output>
+      <Time>2015-05-27T09:43:52.5340382-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\poolTM_0.xml</Key>
+        <Value>2015-06-13T12:03:24.115517-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\aluminum1_0.xnb</Request>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wood3_0.xnb</Request>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wood2_0.xnb</Request>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\poolTableTop_0.xnb</Request>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wood1_0.xnb</Request>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\white_0.xnb</Request>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\yellow_0.xnb</Request>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\blue_0.xnb</Request>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\red_0.xnb</Request>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\orange_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>beer10m.fbx</Source>
+      <Name>beer10m</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\beer10m.xnb</Output>
+      <Time>2015-05-28T08:54:17.5120928-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer10m_0.xml</Key>
+        <Value>2015-06-13T12:03:24.683521-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wine1_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>beer11m.fbx</Source>
+      <Name>beer11m</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\beer11m.xnb</Output>
+      <Time>2015-05-28T08:54:17.5180906-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer11m_0.xml</Key>
+        <Value>2015-06-13T12:03:24.7460214-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\beer1_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>beer2m.fbx</Source>
+      <Name>beer2m</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\beer2m.xnb</Output>
+      <Time>2015-05-28T08:54:17.4620992-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer2m_0.xml</Key>
+        <Value>2015-06-13T12:03:24.8340215-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\beer1_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>beer3m.fbx</Source>
+      <Name>beer3m</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\beer3m.xnb</Output>
+      <Time>2015-05-28T08:54:17.4680902-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer3m_0.xml</Key>
+        <Value>2015-06-13T12:03:24.899518-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\beer3_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>beer4m.fbx</Source>
+      <Name>beer4m</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\beer4m.xnb</Output>
+      <Time>2015-05-28T08:54:17.4731031-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer4m_0.xml</Key>
+        <Value>2015-06-13T12:03:24.9810215-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\beer3_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>beer5m.fbx</Source>
+      <Name>beer5m</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\beer5m.xnb</Output>
+      <Time>2015-05-28T08:54:17.4791083-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer5m_0.xml</Key>
+        <Value>2015-06-13T12:03:25.0205214-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\beer3_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>beer6m.fbx</Source>
+      <Name>beer6m</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\beer6m.xnb</Output>
+      <Time>2015-05-28T08:54:17.4851048-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer6m_0.xml</Key>
+        <Value>2015-06-13T12:03:25.0605186-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\beer2_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>beer7m.fbx</Source>
+      <Name>beer7m</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\beer7m.xnb</Output>
+      <Time>2015-05-28T08:54:17.4920888-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer7m_0.xml</Key>
+        <Value>2015-06-13T12:03:25.1640249-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wine1_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>beer8m.fbx</Source>
+      <Name>beer8m</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\beer8m.xnb</Output>
+      <Time>2015-05-28T08:54:17.4980918-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer8m_0.xml</Key>
+        <Value>2015-06-13T12:03:25.2265317-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\beer3_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>beer9m.fbx</Source>
+      <Name>beer9m</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\beer9m.xnb</Output>
+      <Time>2015-05-28T08:54:17.5050985-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer9m_0.xml</Key>
+        <Value>2015-06-13T12:03:25.3565223-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\beer3_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>bottle1m.fbx</Source>
+      <Name>bottle1m</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\bottle1m.xnb</Output>
+      <Time>2015-05-28T08:54:17.5241034-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\bottle1m_0.xml</Key>
+        <Value>2015-06-13T12:03:25.4500288-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\bottle1_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>bottle2m.fbx</Source>
+      <Name>bottle2m</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\bottle2m.xnb</Output>
+      <Time>2015-05-28T08:54:17.5310909-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\bottle2m_0.xml</Key>
+        <Value>2015-06-13T12:03:25.5435182-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\bottle2_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>bottle3m.fbx</Source>
+      <Name>bottle3m</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\bottle3m.xnb</Output>
+      <Time>2015-05-28T08:54:17.5371037-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\bottle3m_0.xml</Key>
+        <Value>2015-06-13T12:03:25.6260371-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\bottle3_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>bottle4m.fbx</Source>
+      <Name>bottle4m</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\bottle4m.xnb</Output>
+      <Time>2015-05-28T08:54:17.5441459-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\bottle4m_0.xml</Key>
+        <Value>2015-06-13T12:03:25.7710182-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\bottle4_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>guitar.fbx</Source>
+      <Name>guitar</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\guitar.xnb</Output>
+      <Time>2015-05-28T08:54:17.5501501-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\guitar_0.xml</Key>
+        <Value>2015-06-13T12:03:25.9135181-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\GuitarFront_0.xnb</Request>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\GuitarSide_0.xnb</Request>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\GuitarBack_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>stool1m.fbx</Source>
+      <Name>stool1m</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\stool1m.xnb</Output>
+      <Time>2015-05-28T08:54:17.5561552-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\stool1m_0.xml</Key>
+        <Value>2015-06-13T12:03:26.2160337-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wood3_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>wineBottlem.fbx</Source>
+      <Name>wineBottlem</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\wineBottlem.xnb</Output>
+      <Time>2015-05-28T08:54:17.5621591-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\wineBottlem_0.xml</Key>
+        <Value>2015-06-13T12:03:26.2560368-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wineBottle_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>BarCounterm.fbx</Source>
+      <Name>BarCounterm</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\BarCounterm.xnb</Output>
+      <Time>2015-05-28T15:42:42.5803815-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\BarCounterm_0.xml</Key>
+        <Value>2015-06-13T12:03:26.3600183-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\BarCounter_0.xnb</Request>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\white_0.xnb</Request>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Black_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>BottleShelf.fbx</Source>
+      <Name>BottleShelf</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\BottleShelf.xnb</Output>
+      <Time>2015-05-28T15:42:42.5983823-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\BottleShelf_0.xml</Key>
+        <Value>2015-06-13T12:03:26.9830191-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\AlchoholShelf_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Xavier.fbx</Source>
+      <Name>Xavier</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>AnimationProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Xavier.xnb</Output>
+      <Time>2015-06-11T12:01:14.846753-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\Xavier_0.xml</Key>
+        <Value>2015-06-13T12:03:45.523587-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Jordan.fbx</Source>
+      <Name>Jordan</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>AnimationProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Jordan.xnb</Output>
+      <Time>2015-06-11T12:01:13.47144-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\Jordan_0.xml</Key>
+        <Value>2015-06-13T12:04:03.755074-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Josh.fbx</Source>
+      <Name>Josh</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>AnimationProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Josh.xnb</Output>
+      <Time>2015-06-11T12:01:13.8763766-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\Josh_0.xml</Key>
+        <Value>2015-06-13T12:04:21.7750929-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Kevin.fbx</Source>
+      <Name>Kevin</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>AnimationProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Kevin.xnb</Output>
+      <Time>2015-06-11T12:01:14.2149648-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\Kevin_0.xml</Key>
+        <Value>2015-06-13T12:04:39.4505788-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Mark.fbx</Source>
+      <Name>Mark</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>AnimationProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Mark.xnb</Output>
+      <Time>2015-06-11T12:01:14.5228539-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\Mark_0.xml</Key>
+        <Value>2015-06-13T12:04:57.0286122-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>woodenKeg.fbx</Source>
+      <Name>woodenKeg</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\woodenKeg.xnb</Output>
+      <Time>2015-06-04T17:03:21.8689672-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\woodenKeg_0.xml</Key>
+        <Value>2015-06-13T12:04:57.1961007-07:00</Value>
+      </Dependency>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wood2_1.xnb</Request>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\black_0.xnb</Request>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wood1_0.xnb</Request>
+      <Request>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\copper_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Don.fbx</Source>
+      <Name>Don</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>AnimationProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Don.xnb</Output>
+      <Time>2015-06-11T12:01:12.8261974-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\Don_0.xml</Key>
+        <Value>2015-06-13T12:05:15.536586-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Jeremy.fbx</Source>
+      <Name>Jeremy</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>AnimationProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Jeremy.xnb</Output>
+      <Time>2015-06-08T09:03:17.7437153-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\Jeremy_0.xml</Key>
+        <Value>2015-06-13T12:05:32.3491457-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Jeremy2.fbx</Source>
+      <Name>Jeremy2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>AnimationProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Jeremy2.xnb</Output>
+      <Time>2015-06-11T12:01:13.1309736-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\Jeremy2_0.xml</Key>
+        <Value>2015-06-13T12:05:50.177168-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Jeremy3.fbx</Source>
+      <Name>Jeremy3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>AnimationProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Jeremy3.xnb</Output>
+      <Time>2015-06-12T10:06:40.962082-07:00</Time>
+      <Dependency>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\Jeremy3_0.xml</Key>
+        <Value>2015-06-13T12:06:07.9711517-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>mushroom.png</Source>
+      <Name>mushroom</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\mushroom.xnb</Output>
+      <Time>2015-05-11T09:46:35.8916961-07:00</Time>
+    </Item>
+    <Item>
+      <Source>floor.png</Source>
+      <Name>floor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\floor.xnb</Output>
+      <Time>2015-05-14T15:23:00.1645988-07:00</Time>
+    </Item>
+    <Item>
+      <Source>walls.png</Source>
+      <Name>walls</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\walls.xnb</Output>
+      <Time>2015-05-14T23:14:53.7292928-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\beer1.jpg</Source>
+      <Name>Texture\beer1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\beer1.xnb</Output>
+      <Time>2015-05-27T09:44:58.6279211-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\aluminum1.jpg</Source>
+      <Name>Texture\aluminum1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\aluminum1.xnb</Output>
+      <Time>2015-05-27T09:44:54.5305297-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\beer2.jpg</Source>
+      <Name>Texture\beer2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\beer2.xnb</Output>
+      <Time>2015-05-27T09:44:58.6299238-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\beer3.png</Source>
+      <Name>Texture\beer3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\beer3.xnb</Output>
+      <Time>2015-05-27T09:44:58.6319235-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\blue.jpg</Source>
+      <Name>Texture\blue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\blue.xnb</Output>
+      <Time>2015-05-27T09:44:58.6359225-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\bottle1.png</Source>
+      <Name>Texture\bottle1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\bottle1.xnb</Output>
+      <Time>2015-05-27T09:44:58.6420324-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\bottle2.jpg</Source>
+      <Name>Texture\bottle2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\bottle2.xnb</Output>
+      <Time>2015-05-27T09:44:58.6450354-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\bottle3.png</Source>
+      <Name>Texture\bottle3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\bottle3.xnb</Output>
+      <Time>2015-05-27T09:44:58.6571589-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\bottle4.jpg</Source>
+      <Name>Texture\bottle4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\bottle4.xnb</Output>
+      <Time>2015-05-27T09:44:58.6601277-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\GuitarBack.png</Source>
+      <Name>Texture\GuitarBack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\GuitarBack.xnb</Output>
+      <Time>2015-05-27T09:44:58.6722179-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\GuitarFront.jpg</Source>
+      <Name>Texture\GuitarFront</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\GuitarFront.xnb</Output>
+      <Time>2015-05-27T09:44:58.6771843-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\GuitarSide.jpg</Source>
+      <Name>Texture\GuitarSide</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\GuitarSide.xnb</Output>
+      <Time>2015-05-27T09:44:58.6841978-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\orange.jpg</Source>
+      <Name>Texture\orange</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\orange.xnb</Output>
+      <Time>2015-05-27T09:44:58.6871969-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\poolTableTop.jpg</Source>
+      <Name>Texture\poolTableTop</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\poolTableTop.xnb</Output>
+      <Time>2015-05-27T09:44:58.6891971-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\red.jpg</Source>
+      <Name>Texture\red</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\red.xnb</Output>
+      <Time>2015-05-27T09:44:58.6941861-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\white.jpg</Source>
+      <Name>Texture\white</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\white.xnb</Output>
+      <Time>2015-05-27T09:44:58.6981894-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\wine1.JPG</Source>
+      <Name>Texture\wine1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wine1.xnb</Output>
+      <Time>2015-05-27T09:44:58.7052059-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\wineBottle.jpg</Source>
+      <Name>Texture\wineBottle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wineBottle.xnb</Output>
+      <Time>2015-05-27T09:44:58.7131876-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\wood1.jpg</Source>
+      <Name>Texture\wood1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wood1.xnb</Output>
+      <Time>2015-05-27T09:44:58.7234077-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\wood2.jpg</Source>
+      <Name>Texture\wood2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wood2.xnb</Output>
+      <Time>2015-05-27T09:44:58.7294479-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\wood3.jpg</Source>
+      <Name>Texture\wood3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wood3.xnb</Output>
+      <Time>2015-05-27T09:44:58.7394823-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\yellow.jpg</Source>
+      <Name>Texture\yellow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\yellow.xnb</Output>
+      <Time>2015-05-27T09:44:58.7444773-07:00</Time>
+    </Item>
+    <Item>
+      <Source>body.jpg</Source>
+      <Name>body</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\body.xnb</Output>
+      <Time>2015-06-08T09:36:56.6925174-07:00</Time>
+    </Item>
+    <Item>
+      <Source>AlchoholShelf.png</Source>
+      <Name>AlchoholShelf</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\AlchoholShelf.xnb</Output>
+      <Time>2015-05-28T15:42:42.5674193-07:00</Time>
+    </Item>
+    <Item>
+      <Source>BarCounter.png</Source>
+      <Name>BarCounter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\BarCounter.xnb</Output>
+      <Time>2015-05-28T15:42:42.5854141-07:00</Time>
+    </Item>
+    <Item>
+      <Source>bar.png</Source>
+      <Name>bar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\bar.xnb</Output>
+      <Time>2015-06-15T09:49:39.8289121-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\black.jpg</Source>
+      <Name>Texture\black</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\black.xnb</Output>
+      <Time>2015-06-04T17:03:21.8689672-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Barback.png</Source>
+      <Name>Barback</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Barback.xnb</Output>
+      <Time>2015-06-11T09:11:38.9628102-07:00</Time>
+    </Item>
+    <Item>
+      <Source>eye.png</Source>
+      <Name>brown_eye - </Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\brown_eye - .xnb</Output>
+      <Time>2015-06-10T10:27:45.7678372-07:00</Time>
+    </Item>
+    <Item>
+      <Source>white.png</Source>
+      <Name>white</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\white.xnb</Output>
+      <Time>2015-05-28T15:42:42.6014071-07:00</Time>
+    </Item>
+    <Item>
+      <Source>jeans01_normals.png</Source>
+      <Name>jeans01_normals</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\jeans01_normals.xnb</Output>
+      <Time>2015-05-28T16:55:09.318677-07:00</Time>
+    </Item>
+    <Item>
+      <Source>jeans_basic_diffuse.png</Source>
+      <Name>jeans_basic_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\jeans_basic_diffuse.xnb</Output>
+      <Time>2015-05-28T16:55:09.1084728-07:00</Time>
+    </Item>
+    <Item>
+      <Source>shoes02_default.png</Source>
+      <Name>shoes02_default</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\shoes02_default.xnb</Output>
+      <Time>2015-05-28T16:55:10.3000796-07:00</Time>
+    </Item>
+    <Item>
+      <Source>tshirt_displacement.png</Source>
+      <Name>tshirt_displacement</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\tshirt_displacement.xnb</Output>
+      <Time>2015-05-28T16:55:10.4288019-07:00</Time>
+    </Item>
+    <Item>
+      <Source>tshirt_normal.png</Source>
+      <Name>tshirt_normal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\tshirt_normal.xnb</Output>
+      <Time>2015-05-28T16:55:10.443792-07:00</Time>
+    </Item>
+    <Item>
+      <Source>tshirt_texture_blue.png</Source>
+      <Name>tshirt_texture_blue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\tshirt_texture_blue.xnb</Output>
+      <Time>2015-05-28T16:55:10.4990125-07:00</Time>
+    </Item>
+    <Item>
+      <Source>young_lightskinned_male_diffuse.png</Source>
+      <Name>young_lightskinned_male_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\young_lightskinned_male_diffuse.xnb</Output>
+      <Time>2015-05-28T16:55:11.2607798-07:00</Time>
+    </Item>
+    <Item>
+      <Source>teeth.png</Source>
+      <Name>teeth</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\teeth.xnb</Output>
+      <Time>2015-05-28T16:55:10.3815307-07:00</Time>
+    </Item>
+    <Item>
+      <Source>tshirt_texture_white.png</Source>
+      <Name>tshirt_texture_white</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\tshirt_texture_white.xnb</Output>
+      <Time>2015-05-28T16:55:10.5253064-07:00</Time>
+    </Item>
+    <Item>
+      <Source>male02_diffuse_black.png</Source>
+      <Name>male02_diffuse_black</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\male02_diffuse_black.xnb</Output>
+      <Time>2015-05-28T16:55:10.1824429-07:00</Time>
+    </Item>
+    <Item>
+      <Source>tongue01_diffuse.png</Source>
+      <Name>tongue01_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\tongue01_diffuse.xnb</Output>
+      <Time>2015-05-28T16:55:10.4167908-07:00</Time>
+    </Item>
+    <Item>
+      <Source>CreateSession.png</Source>
+      <Name>CreateSession</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\CreateSession.xnb</Output>
+      <Time>2015-06-15T09:49:39.8309148-07:00</Time>
+    </Item>
+    <Item>
+      <Source>JoinSession.png</Source>
+      <Name>JoinSession</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\JoinSession.xnb</Output>
+      <Time>2015-06-15T09:49:39.8404177-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MouthBack.png</Source>
+      <Name>MouthBack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\MouthBack.xnb</Output>
+      <Time>2015-06-02T12:48:15.6262424-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MouthBase.png</Source>
+      <Name>MouthBase</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\MouthBase.xnb</Output>
+      <Time>2015-06-02T12:48:15.6302422-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Tooth.png</Source>
+      <Name>Tooth</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Tooth.xnb</Output>
+      <Time>2015-06-02T12:48:15.6352424-07:00</Time>
+    </Item>
+    <Item>
+      <Source>short01_black_diffuse.png</Source>
+      <Name>short01_black_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\short01_black_diffuse.xnb</Output>
+      <Time>2015-06-02T15:53:44.5974727-07:00</Time>
+    </Item>
+    <Item>
+      <Source>short01_normals.png</Source>
+      <Name>short01_normals</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\short01_normals.xnb</Output>
+      <Time>2015-06-02T15:53:44.6438805-07:00</Time>
+    </Item>
+    <Item>
+      <Source>eyebrow012.png</Source>
+      <Name>eyebrow012</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\eyebrow012.xnb</Output>
+      <Time>2015-06-02T17:01:49.5260835-07:00</Time>
+    </Item>
+    <Item>
+      <Source>male01_diffuse_black.png</Source>
+      <Name>male01_diffuse_black</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\male01_diffuse_black.xnb</Output>
+      <Time>2015-06-02T17:04:23.0729557-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\copper.jpg</Source>
+      <Name>Texture\copper</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\copper.xnb</Output>
+      <Time>2015-06-04T17:03:21.8689672-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\wood2.png</Source>
+      <Name>Texture\wood6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wood6.xnb</Output>
+      <Time>2015-06-04T17:03:21.8689672-07:00</Time>
+    </Item>
+    <Item>
+      <Source>exports\textures\tongue01_diffuse.png</Source>
+      <Name>exports\textures\tongue01_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\exports\textures\tongue01_diffuse.xnb</Output>
+      <Time>2015-06-08T09:28:29.0222279-07:00</Time>
+    </Item>
+    <Item>
+      <Source>exports\textures\teeth.png</Source>
+      <Name>exports\textures\teeth</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\exports\textures\teeth.xnb</Output>
+      <Time>2015-06-08T09:28:44.3088506-07:00</Time>
+    </Item>
+    <Item>
+      <Source>exports\textures\brown_eye.png</Source>
+      <Name>exports\textures\brown_eye</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\exports\textures\brown_eye.xnb</Output>
+      <Time>2015-06-08T09:28:58.8137979-07:00</Time>
+    </Item>
+    <Item>
+      <Source>exports\textures\male02_diffuse_black.png</Source>
+      <Name>exports\textures\male02_diffuse_black</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\exports\textures\male02_diffuse_black.xnb</Output>
+      <Time>2015-06-08T09:29:23.3935116-07:00</Time>
+    </Item>
+    <Item>
+      <Source>exports\textures\short01_black_diffuse.png</Source>
+      <Name>exports\textures\short01_black_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\exports\textures\short01_black_diffuse.xnb</Output>
+      <Time>2015-06-08T09:29:48.0076129-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Exit.png</Source>
+      <Name>Exit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Exit.xnb</Output>
+      <Time>2015-06-15T09:49:39.8384176-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Left.png</Source>
+      <Name>Left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Left.xnb</Output>
+      <Time>2015-06-15T09:49:39.8474171-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Resume.png</Source>
+      <Name>Resume</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Resume.xnb</Output>
+      <Time>2015-06-15T09:49:39.866417-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Right.png</Source>
+      <Name>Right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Right.xnb</Output>
+      <Time>2015-06-15T09:49:39.8689252-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Credits.png</Source>
+      <Name>Credits</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Credits.xnb</Output>
+      <Time>2015-06-15T09:49:39.8364153-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Start.png</Source>
+      <Name>Start</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Start.xnb</Output>
+      <Time>2015-06-15T09:49:39.8734267-07:00</Time>
+    </Item>
+    <Item>
+      <Source>BarFight.wav</Source>
+      <Name>BarFight</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\BarFight.xnb</Output>
+      <Time>2015-06-14T20:24:50.5703256-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Font.spritefont</Source>
+      <Name>Font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Font.xnb</Output>
+      <Time>2015-06-01T10:12:34.3993079-07:00</Time>
+    </Item>
+    <Item>
+      <Source>mushroomm.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\mushroomm_0.xml</Output>
+      <Time>2015-05-11T09:46:35.8756783-07:00</Time>
+    </Item>
+    <Item>
+      <Source>mushroom.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\mushroom_0.xnb</Output>
+      <Time>2015-05-11T09:46:35.8916961-07:00</Time>
+    </Item>
+    <Item>
+      <Source>beer1m.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer1m_0.xml</Output>
+      <Time>2015-05-27T09:39:03.9712212-07:00</Time>
+    </Item>
+    <Item>
+      <Source>poolTM.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\poolTM_0.xml</Output>
+      <Time>2015-05-27T09:43:52.5340382-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\aluminum1.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\aluminum1_0.xnb</Output>
+      <Time>2015-05-27T09:44:54.5305297-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\wood3.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wood3_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.7394823-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\wood2.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wood2_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.7294479-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\poolTableTop.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\poolTableTop_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.6891971-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\wood1.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wood1_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.7234077-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\white.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\white_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.6981894-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\yellow.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\yellow_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.7444773-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\blue.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\blue_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.6359225-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\red.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\red_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.6941861-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\orange.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\orange_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.6871969-07:00</Time>
+    </Item>
+    <Item>
+      <Source>beer10m.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer10m_0.xml</Output>
+      <Time>2015-05-28T08:54:17.5120928-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\wine1.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wine1_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.7052059-07:00</Time>
+    </Item>
+    <Item>
+      <Source>beer11m.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer11m_0.xml</Output>
+      <Time>2015-05-28T08:54:17.5180906-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\beer1.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\beer1_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.6279211-07:00</Time>
+    </Item>
+    <Item>
+      <Source>beer2m.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer2m_0.xml</Output>
+      <Time>2015-05-28T08:54:17.4620992-07:00</Time>
+    </Item>
+    <Item>
+      <Source>beer3m.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer3m_0.xml</Output>
+      <Time>2015-05-28T08:54:17.4680902-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\beer3.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\beer3_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.6319235-07:00</Time>
+    </Item>
+    <Item>
+      <Source>beer4m.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer4m_0.xml</Output>
+      <Time>2015-05-28T08:54:17.4731031-07:00</Time>
+    </Item>
+    <Item>
+      <Source>beer5m.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer5m_0.xml</Output>
+      <Time>2015-05-28T08:54:17.4791083-07:00</Time>
+    </Item>
+    <Item>
+      <Source>beer6m.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer6m_0.xml</Output>
+      <Time>2015-05-28T08:54:17.4851048-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\beer2.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\beer2_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.6299238-07:00</Time>
+    </Item>
+    <Item>
+      <Source>beer7m.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer7m_0.xml</Output>
+      <Time>2015-05-28T08:54:17.4920888-07:00</Time>
+    </Item>
+    <Item>
+      <Source>beer8m.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer8m_0.xml</Output>
+      <Time>2015-05-28T08:54:17.4980918-07:00</Time>
+    </Item>
+    <Item>
+      <Source>beer9m.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\beer9m_0.xml</Output>
+      <Time>2015-05-28T08:54:17.5050985-07:00</Time>
+    </Item>
+    <Item>
+      <Source>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\Maya\Texture\beer3.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\beer3_0.xnb</Output>
+      <Time>2015-05-28T08:57:59.346122-07:00</Time>
+    </Item>
+    <Item>
+      <Source>bottle1m.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\bottle1m_0.xml</Output>
+      <Time>2015-05-28T08:54:17.5241034-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\bottle1.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\bottle1_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.6420324-07:00</Time>
+    </Item>
+    <Item>
+      <Source>bottle2m.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\bottle2m_0.xml</Output>
+      <Time>2015-05-28T08:54:17.5310909-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\bottle2.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\bottle2_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.6450354-07:00</Time>
+    </Item>
+    <Item>
+      <Source>bottle3m.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\bottle3m_0.xml</Output>
+      <Time>2015-05-28T08:54:17.5371037-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\bottle3.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\bottle3_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.6571589-07:00</Time>
+    </Item>
+    <Item>
+      <Source>bottle4m.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\bottle4m_0.xml</Output>
+      <Time>2015-05-28T08:54:17.5441459-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\bottle4.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\bottle4_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.6601277-07:00</Time>
+    </Item>
+    <Item>
+      <Source>guitar.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\guitar_0.xml</Output>
+      <Time>2015-05-28T08:54:17.5501501-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\GuitarFront.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\GuitarFront_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.6771843-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\GuitarSide.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\GuitarSide_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.6841978-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\GuitarBack.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\GuitarBack_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.6722179-07:00</Time>
+    </Item>
+    <Item>
+      <Source>stool1m.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\stool1m_0.xml</Output>
+      <Time>2015-05-28T08:54:17.5561552-07:00</Time>
+    </Item>
+    <Item>
+      <Source>wineBottlem.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\wineBottlem_0.xml</Output>
+      <Time>2015-05-28T08:54:17.5621591-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\wineBottle.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wineBottle_0.xnb</Output>
+      <Time>2015-05-27T09:44:58.7131876-07:00</Time>
+    </Item>
+    <Item>
+      <Source>BarCounterm.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\BarCounterm_0.xml</Output>
+      <Time>2015-05-28T15:42:42.5803815-07:00</Time>
+    </Item>
+    <Item>
+      <Source>BarCounter.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\BarCounter_0.xnb</Output>
+      <Time>2015-05-28T15:42:42.5854141-07:00</Time>
+    </Item>
+    <Item>
+      <Source>white.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\white_0.xnb</Output>
+      <Time>2015-05-28T15:42:42.6014071-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Black.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Black_0.xnb</Output>
+      <Time>2015-06-04T17:05:22.6316228-07:00</Time>
+    </Item>
+    <Item>
+      <Source>BottleShelf.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\BottleShelf_0.xml</Output>
+      <Time>2015-05-28T15:42:42.5983823-07:00</Time>
+    </Item>
+    <Item>
+      <Source>AlchoholShelf.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\AlchoholShelf_0.xnb</Output>
+      <Time>2015-05-28T15:42:42.5674193-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Xavier.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\Xavier_0.xml</Output>
+      <Time>2015-06-11T12:01:14.846753-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Jordan.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\Jordan_0.xml</Output>
+      <Time>2015-06-11T12:01:13.47144-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Josh.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\Josh_0.xml</Output>
+      <Time>2015-06-11T12:01:13.8763766-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Kevin.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\Kevin_0.xml</Output>
+      <Time>2015-06-11T12:01:14.2149648-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Mark.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\Mark_0.xml</Output>
+      <Time>2015-06-11T12:01:14.5228539-07:00</Time>
+    </Item>
+    <Item>
+      <Source>woodenKeg.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\woodenKeg_0.xml</Output>
+      <Time>2015-06-04T17:03:21.8689672-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\wood2.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\wood2_1.xnb</Output>
+      <Time>2015-06-04T17:03:21.8689672-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\black.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\black_0.xnb</Output>
+      <Time>2015-06-04T17:03:21.8689672-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture\copper.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Texture\copper_0.xnb</Output>
+      <Time>2015-06-04T17:03:21.8689672-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Don.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\Don_0.xml</Output>
+      <Time>2015-06-11T12:01:12.8261974-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Jeremy.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\Jeremy_0.xml</Output>
+      <Time>2015-06-08T09:03:17.7437153-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Jeremy2.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\Jeremy2_0.xml</Output>
+      <Time>2015-06-11T12:01:13.1309736-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Jeremy3.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\Jeremy3_0.xml</Output>
+      <Time>2015-06-12T10:06:40.962082-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sidechain.wav</Source>
+      <Name>Sidechain</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Sidechain.xnb</Output>
+      <Time>2015-06-13T14:40:51.2258924-07:00</Time>
+    </Item>
+    <Item>
+      <Source>WinSong.wav</Source>
+      <Name>WinSong</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\WinSong.xnb</Output>
+      <Time>2015-06-14T20:24:04.5421068-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Punch1.wav</Source>
+      <Name>Punch1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Punch1.xnb</Output>
+      <Time>2015-06-14T20:24:38.502817-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Punch2.wav</Source>
+      <Name>Punch2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Punch2.xnb</Output>
+      <Time>2015-06-14T20:24:38.5078141-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Punch3.wav</Source>
+      <Name>Punch3</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Punch3.xnb</Output>
+      <Time>2015-06-14T20:24:38.5123139-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Punch4.wav</Source>
+      <Name>Punch4</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\Punch4.xnb</Output>
+      <Time>2015-06-14T20:24:38.5158057-07:00</Time>
+    </Item>
+    <Item>
+      <Source>antialiasing.png</Source>
+      <Name>antialiasing</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\antialiasing.xnb</Output>
+      <Time>2015-06-15T14:31:32.4282357-07:00</Time>
+    </Item>
+    <Item>
+      <Source>CreateSession_small.png</Source>
+      <Name>CreateSession_small</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\CreateSession_small.xnb</Output>
+      <Time>2015-06-15T09:49:39.8334153-07:00</Time>
+    </Item>
+    <Item>
+      <Source>JoinSession_small.png</Source>
+      <Name>JoinSession_small</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\JoinSession_small.xnb</Output>
+      <Time>2015-06-15T09:49:39.844923-07:00</Time>
+    </Item>
+    <Item>
+      <Source>music.png</Source>
+      <Name>music</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\music.xnb</Output>
+      <Time>2015-06-15T14:31:33.6877373-07:00</Time>
+    </Item>
+    <Item>
+      <Source>options.png</Source>
+      <Name>options</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\options.xnb</Output>
+      <Time>2015-06-15T14:31:34.3792368-07:00</Time>
+    </Item>
+    <Item>
+      <Source>resolution.png</Source>
+      <Name>resolution</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\resolution.xnb</Output>
+      <Time>2015-06-15T14:31:35.0502374-07:00</Time>
+    </Item>
+    <Item>
+      <Source>soundfx.png</Source>
+      <Name>soundfx</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\soundfx.xnb</Output>
+      <Time>2015-06-15T14:31:36.2377374-07:00</Time>
+    </Item>
+    <Item>
+      <Source>controller.png</Source>
+      <Name>controller</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\controller.xnb</Output>
+      <Time>2015-06-15T11:47:40.2858203-07:00</Time>
+    </Item>
+    <Item>
+      <Source>room1.png</Source>
+      <Name>room1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\room1.xnb</Output>
+      <Time>2015-06-15T12:03:31.4236641-07:00</Time>
+    </Item>
+    <Item>
+      <Source>creditsImage.png</Source>
+      <Name>creditsImage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\creditsImage.xnb</Output>
+      <Time>2015-06-15T13:32:11.3617153-07:00</Time>
+    </Item>
+    <Item>
+      <Source>controls.png</Source>
+      <Name>controls</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\controls.xnb</Output>
+      <Time>2015-06-15T14:30:18.0965353-07:00</Time>
+    </Item>
+    <Item>
+      <Source>rumble.png</Source>
+      <Name>rumble</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\rumble.xnb</Output>
+      <Time>2015-06-15T14:31:35.6627375-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{1E690288-3A93-4716-89A8-97B4CE2A6257}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2Content\</RootDirectory>
+      <LoggerRootDirectory>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\</LoggerRootDirectory>
+      <IntermediateDirectory>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\AnimationPipeline\bin\x86\Debug\AnimationPipeline.dll</Key>
+        <Value>2015-06-13T12:03:20.7264691-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-06-13T10:05:44.0761858-07:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,1 @@
+F:\Programs\C#\XNA\Bar_Fight_EngineM2\BarFightEngineM2\BarFightEngineM2\BarFightEngineM2Content\obj\x86\Debug\BarFightEngineM2Content.contentprojResolveAssemblyReference.cache

@@ -1,0 +1,140 @@
+ModelDef PoolTM
+ModelDef stool1m
+ModelDef BarCounterm
+ModelDef BottleShelf
+ModelDef bottle2m
+Model pooltable
+{
+ModelID PoolTM
+CollideType AABB
+OrigenX 0
+OrigenY 3.5
+OrigenZ 0
+RotX 0
+RotY 0
+RotZ 0
+TransX 1.8
+TransY 1.8
+TransZ 1.8
+HalfWidth 5.2
+HalfHeight 3
+HalfLength 1
+}
+Model stool
+{
+ModelID stool1m
+CollideType AABB
+OrigenX 3
+OrigenY 0
+OrigenZ -5
+HalfWidth 1
+HalfHeight 1
+HalfLength 2
+TransX 0.2
+TransY 0.2
+TransZ 0.2
+}
+Model stool1
+{
+ModelID stool1m
+CollideType AABB
+OrigenX -3
+OrigenY 0
+OrigenZ -5
+HalfWidth 1
+HalfHeight 1
+HalfLength 2
+TransX 0.2
+TransY 0.2
+TransZ 0.2
+}
+Model barCounter
+{
+ModelID BarCounterm
+CollideType AABB
+OrigenX -20
+OrigenY 0
+OrigenZ -5
+HalfWidth 2
+HalfHeight 18
+HalfLength 2
+TransX 0.05
+TransY 0.05
+TransZ 0.05
+}
+Model bottleShelf
+{
+ModelID BottleShelf
+CollideType AABB
+OrigenX -31
+OrigenY 0
+OrigenZ -8
+HalfWidth 1
+HalfHeight 1
+HalfLength 2
+TransX 0.02
+TransY 0.01
+TransZ 0.01
+RotY -1.59
+}
+DrinkSpawner
+{
+ModelID bottle2m
+X -25
+Z -20
+Y 1
+TransX 0.3
+TransY 0.3
+TransZ 0.3
+HalfWidth 2
+HalfHeight 2
+HalfLength 2
+DrinkStrength 50
+SpawnTime 500
+}
+ModelGroup
+{
+// The bar and bottle shelf group
+IncludeModel barCounter
+IncludeModel bottleShelf
+X 0
+Y 0
+Z -14
+RotX 0
+RotZ 0
+RotY 0
+}
+ModelGroup
+{
+IncludeModel pooltable
+IncludeModel stool
+IncludeModel stool1
+X 0
+Y 0
+Z 12
+RotX 0
+RotZ 0
+RotY 0
+}
+XWidth 32
+YWidth 10
+ZWidth 32
+Light X 0
+Light Y 12
+Light Z 0
+Light Power 1
+Light Ambient 0.2
+FloorTexture floor
+LeftWallTexture walls
+RightWallTexture walls
+FrontWallTexture walls
+BackWallTexture walls
+CeilingTexture floor
+Music Sidechain
+FloorXDensity 5
+FloorYDensity 5
+WallXDensity 5
+WallYDensity 1
+BarX 10
+BarY 10
+BarWidth 22
